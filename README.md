@@ -81,6 +81,33 @@ SWITCH(
 
 
 
+📊 Dashboard Architecture & Views
+The dashboard suite is structured across four dedicated views with global slicers for Joining Year (2013–2021), Gender, Banking Relationship, and Institution Advisor:
+
+1. Home / Executive Cockpit
+High-level bird's-eye view consolidating client volume (3,000 clients), total loans (€4.38B), total deposits (€3.77B), and key account splits.
+
+Navigation links routing directly into detailed deep-dive reports.
+
+2. Loan Analysis (Credit & Risk Distribution)
+Exposure by Income Band: Donut chart breakdown revealing middle-income clients account for the majority of loan utilization (53.22% / €2.33B), followed by low-income (25.18% / €1.10B) and high-income tiers (21.61% / €0.95B).
+
+Categorical Breakdowns: Bar visual distribution of borrowing across Banking Relationship types, target Nationalities, and Occupations.
+
+3. Deposit Analysis (Liquidity & Asset Profiling)
+Deposit Share by Income Tier: Evaluates funding stability across income segments (Mid: 54.17% / €1.09B, Low: 24.79% / €0.50B, High: 21.05% / €0.42B).
+
+Behavioral Allocation: Distribution across savings accounts (€698.73M) vs. checking liquidity (€963.28M) categorized by occupation and nationality.
+
+4. Summary & Operational Metrics
+Consolidated scorecard presenting all 11 core KPIs simultaneously for executive risk reviews and cross-functional performance tracking.
+
+💡 Strategic Insights & Key Takeaways
+Portfolio Loan-to-Deposit Balance: The portfolio maintains €4.38B in total loan facilities against €3.77B in customer deposits, indicating strong loan deployment, with business lending (€2.60B) driving over 59% of aggregate credit volume.
+
+Middle-Income Concentration: Over 53% of loan volume is concentrated in the "Mid" income band (€100k–€300k). Underwriting workflows should tailor risk-assessment controls to mid-income earnings stability.
+
+
 Liquidity Buffer: Checking accounts (€963.28M) represent a large liquid transactional reserve compared to formal savings (€698.73M), showing opportunities for treasury products to convert zero-yield transactional deposits into yield-generating assets.
     'Clients - Banking'[Engagment Days] < 7300, "< 20 Years",
     "> 20 Years"
